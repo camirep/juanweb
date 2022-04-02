@@ -99,3 +99,12 @@ html{
 .about .parrafo{
     font-size:16px;
 }
+
+@media (min-width: 325px) {
+    .navbar img{
+        right: 358px;
+    }
+    .cool{
+        left:162px;
+    }
+}
