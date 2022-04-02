@@ -106,5 +106,26 @@ html{
     }
     .cool{
         left:162px;
+        border:1px solid red;
+    }
+}
+
+@media (min-width: 375px) {
+    .navbar img{
+        right: 308px;
+    }
+    .cool{
+        left:138px;
+        border:1px solid #f29555;
+    }
+}
+
+@media (min-width: 425px) {
+    .navbar img{
+        right: 358px;
+    }
+    .cool{
+        left:162px;
+        border:1px solid #f29555;
     }
 }
