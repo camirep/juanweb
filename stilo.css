@@ -101,4 +101,31 @@ html{
     font-size:16px;
 }
 
+.diseño{
+    width: 100%;
+    height: 50vh;
+    position: relative;
+}
+
+
+
+.diseño .content-diseño img{
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    
+}
+
+.diseño .content-diseño h1{
+    position: absolute;
+    left: calc(50% - 68px);
+    color: #fff;
+    top: calc(50% - 87px);
+    letter-spacing: 8px;
+    font-size: 34px;
+    font-weight: 600;
+    text-shadow: 0px 3px 15px #000000, 15px -6px 18px rgb(0 0 0 / 47%);
+}
+
 
