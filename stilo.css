@@ -26,7 +26,7 @@ html{
     width: 40px;
     height: 40px;
     position: absolute;
-    right: 253px;
+    left: calc(8%);
 }
 .navbar ul{
     display: flex;
@@ -47,6 +47,7 @@ html{
     height:41vh;
     background-color: #1a1c20;
     padding-top: 16px;
+    position: relative;
 }
 
 .content h1{
@@ -72,9 +73,9 @@ html{
 .cool{
     width: 100px;
     height: 100px;
-    top: 344px;
     position: absolute;
-    left: 111px;
+    left: calc(50% - 50px);
+    top:44%;
     border: 2px solid #f29555;
     border-radius: 50%;
 }
@@ -100,32 +101,4 @@ html{
     font-size:16px;
 }
 
-@media (min-width: 325px) {
-    .navbar img{
-        right: 358px;
-    }
-    .cool{
-        left:162px;
-        border:1px solid red;
-    }
-}
 
-@media (min-width: 375px) {
-    .navbar img{
-        right: 308px;
-    }
-    .cool{
-        left:138px;
-        border:1px solid #f29555;
-    }
-}
-
-@media (min-width: 425px) {
-    .navbar img{
-        right: 358px;
-    }
-    .cool{
-        left:162px;
-        border:1px solid #f29555;
-    }
-}
