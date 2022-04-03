@@ -75,7 +75,7 @@ html{
     height: 100px;
     position: absolute;
     left: calc(50% - 50px);
-    top:44%;
+    top:calc(50% - 50px);
     border: 2px solid #f29555;
     border-radius: 50%;
 }
