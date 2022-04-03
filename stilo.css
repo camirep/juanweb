@@ -113,8 +113,8 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    
-    
+    width: 100%;
+    margin-top: 18px;
 }
 
 .diseño .content-diseño h1{
@@ -123,7 +123,7 @@ html{
     color: #fff;
     top: calc(50% - 87px);
     letter-spacing: 8px;
-    font-size: 34px;
+    font-size: 28px;
     font-weight: 600;
     text-shadow: 0px 3px 15px #000000, 15px -6px 18px rgb(0 0 0 / 47%);
 }
