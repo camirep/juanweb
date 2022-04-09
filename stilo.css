@@ -99,6 +99,7 @@ html{
 }
 .about .parrafo{
     font-size:16px;
+    color: #757575;
 }
 
 .diseño{
@@ -256,6 +257,13 @@ html{
     text-transform: capitalize;
     letter-spacing: 1px;
     font-weight: 600;
+}
+
+.frameworks .frameworks-title{
+    text-align: left;
+    color: #757575;
+    width: 100%;
+    padding-left: 10%;
 }
 
 
