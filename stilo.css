@@ -263,7 +263,7 @@ html{
     text-align: left;
     color: #757575;
     width: 100%;
-    padding-left: 10%;
+    padding-left: calc(4%);
 }
 
 
