@@ -6,7 +6,7 @@
 
 header{
     width:100%;
-    height: 9vh;
+    height: 9%;
     background-color: #0a0b0c;
 }
 
@@ -142,6 +142,8 @@ html{
     padding: 34px;
 }
 
+
+
 .experiencia h3{
     text-align: center;
     color: #808080;
@@ -176,6 +178,8 @@ html{
     font-weight: 600;
 }
 
+
+
 .item p{
     color:#808080;
     font-weight: 400;
@@ -185,7 +189,7 @@ html{
 
 
 .frameworks{
-    
+    padding-bottom: 36px;
     background-color: #E5E5E5;
     width: 100%;
 }
@@ -258,7 +262,7 @@ html{
     letter-spacing: 1px;
     font-weight: 600;
 }
-
+  
 .frameworks .frameworks-title{
     text-align: left;
     color: #757575;
@@ -267,4 +271,71 @@ html{
 }
 
 
+.importancia{
+    width: 100%;
+    background-color: #201E1C;
+}
+.importancia #titulo-importancia{
+    text-align: center;
+    color:white;
+    padding: 34px;
+}
 
+.importancia .titulo-importancia{ 
+    text-align: left;
+    color: #808080;
+    width: 100%;
+    padding-left: calc(4%);
+    padding-bottom: 36px;
+}
+
+.iframe-container{
+    position: relative;
+    width: 100%;
+    padding-bottom: 56.25%; 
+    height: 0;
+    display: flex;
+    justify-content:center;
+
+    }
+  .iframe-container iframe{
+    position: absolute;
+    top:0;
+    width: 90%;
+    height: 100%;
+    border-radius: 10px;
+  }
+  .container-importancia{
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+  
+  .importancia .target-importancia{
+    height: 100%;
+    width: 90%;
+    background-color: #282623;
+    border-radius: 10px;
+    margin-bottom:36px;
+}
+
+.target-importancia img{
+    width: 50px;
+    height: 50px;
+    margin:16px;
+}
+
+.target-importancia h1{
+    text-align: left;
+    color: white;
+    padding: 16px;
+    text-transform: capitalize;
+}
+
+.target-importancia p{
+    color: #808080;
+    padding:16px;
+}
+  
