@@ -6,7 +6,7 @@
 
 header{
     width:100%;
-    height: 9%;
+    height: 9vh;
     background-color: #0a0b0c;
 }
 
@@ -48,6 +48,9 @@ html{
     background-color: #1a1c20;
     padding-top: 16px;
     position: relative;
+    -webkit-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
 }
 
 .content h1{
@@ -161,6 +164,9 @@ html{
     padding: 28px;
     margin-top: 36px;
     scroll-snap-align: center;
+    -webkit-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
     
 }
 .item img{
@@ -250,6 +256,9 @@ html{
     padding: 28px;
     margin-top: 36px;
     scroll-snap-align: center;
+    -webkit-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
 }
 
 
@@ -304,6 +313,9 @@ html{
     width: 90%;
     height: 100%;
     border-radius: 10px;
+    -webkit-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    -moz-box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
+    box-shadow: 0px 28px 65px -35px rgba(0,0,0,0.75);
   }
   .container-importancia{
     margin-top: 36px;
@@ -339,3 +351,36 @@ html{
     padding:16px;
 }
   
+
+footer{
+    width: 100%;
+    height: 16vh;
+    background-color: #0a0b0c;
+    
+}
+
+.linkedin{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-top: 16px;
+}
+.linkedin img{
+    width:38px;
+}
+.linkedin a{
+    text-decoration: none;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
+}
+
+.linkedin a:hover{
+    border-bottom: 1px solid #f29555;
+    
+}
